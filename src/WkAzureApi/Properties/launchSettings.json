@@ -1,11 +1,11 @@
 ﻿{
   "$schema": "http://json.schemastore.org/launchsettings.json",
   "iisSettings": {
-    "windowsAuthentication": false, 
-    "anonymousAuthentication": true, 
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:49986",
-      "sslPort": 44374
+      "applicationUrl": "http://localhost:37657",
+      "sslPort": 44330
     }
   },
   "profiles": {
@@ -17,7 +17,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "WkAzure": {
+    "WkAzureApi": {
       "commandName": "Project",
       "launchBrowser": true,
       "launchUrl": "api/values",

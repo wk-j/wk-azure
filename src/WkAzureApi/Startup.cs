@@ -11,7 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace WkAzure
+namespace WkAzureApi
 {
     public class Startup
     {
@@ -41,7 +41,6 @@ namespace WkAzure
             }
 
             app.UseStaticFiles();
-
             app.UseHttpsRedirection();
             app.UseMvc();
         }

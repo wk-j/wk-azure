@@ -1,3 +1,3 @@
 ## Wk Azure
 
-- https://wk-azure.azurewebsites.net
+- https://wk-azure-api.azurewebsites.net
